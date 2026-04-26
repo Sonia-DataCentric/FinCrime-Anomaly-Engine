@@ -48,3 +48,18 @@ plt.title("FinCrime Detection Map")
 plt.show()
 
 model.save('fincrime_vae_model.keras')
+
+# Then I am adjusting The sensitivity(Threshold)
+# Again to have a realistic no. of HIGH ALERTS which can
+# Be investigate ("HIGH RISK">1.00)
+# It only flags the most extreme, obvious anomalies.
+
+#  EDITING ABOVE CODE WITH BELOW---------------------------
+
+# for i, score in enumerate(mse):
+#    status = "⚠️ HIGH RISK" if score > 1.00 else "✅ LOW RISK"
+#    print(f"App {i+1}: Error {score:.4f} -> {status}")
+
+
+# --------------NOW THE OUTPUT GRAPH IS OF TOP MOST EXTREME CASES-----------
+
