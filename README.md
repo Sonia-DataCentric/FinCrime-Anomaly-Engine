@@ -22,7 +22,7 @@ I edited the engine logic to implement an **Adjusted Sensitivity Threshold (1.0)
 
 ## Visual Proof
 ### Detection Map (Latent Space Analysis)
-![Detection Map]
+
 <img width="801" height="688" alt="Screenshot 2026-04-25 204200" src="https://github.com/user-attachments/assets/f671f11f-bd15-4623-a44a-96eb895c709a" />
 
 
@@ -30,7 +30,7 @@ I edited the engine logic to implement an **Adjusted Sensitivity Threshold (1.0)
 *This graph illustrates how the VAE separates 'Normal' AU patterns from 'Red' Fraudulent anomalies in the Latent Space.*
 
 ### Terminal Execution
-![Bash Output]
+
 <img width="1469" height="754" alt="Screenshot 2026-04-25 203942" src="https://github.com/user-attachments/assets/d8e6582c-7027-469a-bf4e-bc97cf7dcdc1" />
 
 
